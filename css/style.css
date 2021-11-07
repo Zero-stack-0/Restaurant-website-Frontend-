@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    background-color: #EAE7DC;
+     text-align: center;
+     letter-spacing: -1;
+}
+h1,h3{
+    font-family: "Montserrat";
+
+}
+
+.heading{
+    font-family: "Montserrat";
+    font-size: 95px;
+    color:hsl(196, 48%, 5%);
+}
+
+.head-para{
+    font-size:42px;
+}
+
+/*navbar*/
+.navbar-brand{
+    font-size:25px;
+}
+.navbar{
+    padding:3% 10%;
+}
+.logo{
+   font-size: larger;
+   font-weight: bolder;
+}
+/*title*/
+
+.main-img{
+    position: relative;
+    bottom: 10px;
+    width:80%;
+    text-align: center;
+}
+
+.title{
+    padding:5% 10%;
+}
+.brr{
+    font-size:70px;
+    color: #E85A4F;}
+
+    /*feature*/
+    .icon{
+      
+        text-align: center;
+        padding:4.5%  
+    }
+    .icon:hover{
+        color:#fff;
+    }
+    .custom-row{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        display: grid;
+        grid-gap: 15px;
+        padding: 10px;
+    }
+    .features{
+        background-color: #EAE7DC;
+    }
+    .feature-title{
+        background-color: yellow;
+        text-align: center;
+        padding: 15px;
+    }
+          /*about*/
+
+          
+    .about {
+        background:  #EAE7DC;
+        padding: 50px;
+        display: grid;
+        grid-template-columns: 400px 1fr;
+        align-items: center;
+    }
+    .about-detail{
+        text-align: left;
+        padding: 15px;
+    }
+
+                /*Instagram-gallery*/
+
+    .Insta {
+        line-height: 0.5;
+        text-align: center;
+        color: black;
+      }
+      .Insta span {
+        display: inline-block;
+        position: relative;  
+      }
+      .Insta span:before,
+      .Insta span:after {
+        content: "";
+        position: absolute;
+        height: 5px;
+        background: linear-gradient(to var(--direction, left), var(--yellow), transparent);
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        top: 0;
+        width: 600px;
+      }
+      .Insta span:before {
+        right: 100%;
+        margin-right: 15px;
+      }
+      .Insta span:after {
+        left: 100%;
+        margin-left: 15px;
+      }
+      .images{
+          width:110%;
+      }
+      .ga{
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+          grid-column-gap:10px;
+          grid-row-gap:20px;
+      }
+      /*footer*/
+       
+.foot{
+    margin:20px 10px ;
+}
+     
+
+/* media*/
+
+    @media only screen and (max-width: 1336px) {
+        .feature-title{
+            text-align: center;
+        }
+      .navbar-brand{
+          font-size:20px;
+      }
+            .heading{
+                font-size: 50px;
+
+            }
+            .head-para{
+                font-size:30px;
+            }
+            .main-img{
+                width:60%;
+            }
+            .brr{
+                font-size:30px;
+            }
+            .about {
+                grid-template-columns: 1fr;
+            }
+            
+        }
+       
+    
